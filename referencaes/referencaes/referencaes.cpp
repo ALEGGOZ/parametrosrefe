@@ -11,14 +11,11 @@ int main()
 	cout << "introduce el segundo valor: ";
 	cin >> b;
 	cout << endl;
-	cout << " valor de a: " << a <<
-		"valor de b: " << b << endl;
+	cout << " valor de a: " << a << endl << "valor de b: " << b << endl;
 	intercambio(&a, &b);
-	cout << endl << "despues del intercambio:" <<
-		endl << endl;
-	cout << "el valor de a: " << a << "valor de b: "
-		<< b << endl;
-	system("pausa");
+	cout << endl << "despues del intercambio:" <<endl << endl;
+	cout << "el valor de a: " << a << endl << "valor de b: "<< b << endl;
+	system("pause");
 	return 0;
 }
 void intercambio(int* x, int* y)
